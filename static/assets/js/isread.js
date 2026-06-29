@@ -51,7 +51,7 @@ function openReadCongrats(count){
     const btn = document.getElementById("mark-read-btn")
     const congratsTitle = btn?.dataset?.congratsTitle || "تبریک 🎉"
     const congratsText = btn?.dataset?.congratsText || `تا الان ${count} ترد خوندی 👏`
-    const congratsImage = btn?.dataset?.congratsImage || "/assets/pic/dancing-img.gif"
+    const congratsImage = btn?.dataset?.congratsImage || "/assets/static-pic/congrat.gif"
 
     modalTitle.textContent = congratsTitle
     modalText.textContent = congratsText.replace("{count}", count)
